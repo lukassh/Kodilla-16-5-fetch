@@ -1,0 +1,64 @@
+body {
+  background: #5EA7EE;
+  color: #fff;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header {
+  margin: 50px 0;
+  font-size: 20px;
+}
+
+.box {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.box h3 {
+  padding: 10px;
+}
+
+div:nth-child(3) {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div:nth-child(3) .trigger {
+  background: transparent;
+  width: 350px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  transition: ease 1s;
+}
+
+div:nth-child(3) .trigger:hover {
+  text-decoration: underline;
+  background: #2f8ce9;
+}
+
+div:nth-child(3) .tweet {
+  margin-top: 40px;
+  background: transparent;
+  width: 340px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  text-decoration: none;
+  transition: ease 1s;
+}
+
+div:nth-child(3) .tweet:hover {
+  text-decoration: underline;
+  background: #2f8ce9;
+}
+
+/*# sourceMappingURL=style.css.map */
